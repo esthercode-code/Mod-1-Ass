@@ -70,4 +70,5 @@ You can quickly tweak the script:
 - Number of workers: change the `range(400)` to your desired count.
 - Salary band: adjust `random.randint(1000, 35000)` to fit your pay scale.
 - Reproducible runs: add a seed before generation, e.g. `random.seed(42)`.
+
 - Level logic: convert the two `if` statements into `if/elif` if you want to prevent overrides, or keep as-is if `A5-F` should take precedence.
